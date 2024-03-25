@@ -1,11 +1,11 @@
 body{
-        background-color: #ffffff;
-        display: grid;
-        gap: 15px;
-        grid-template-areas: 
-        "header header header" 
-        "aside main main"
-        "footer footer footer";
+    background-color: #ffffff;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+    "header header header" 
+    "aside main main"
+    "footer footer footer";
 }
 header{
     grid-area: header; 
@@ -22,16 +22,16 @@ footer{
 }
         
 h1{
-        text-align: center;
+    text-align: center;
 }
 
 h3{
-        text-align: center;
+    text-align: center;
 }
 
 
 aside{
-    background-color: #ffffff;Heckler & Koch P30
+    background-color: #ffffff;
     position: relative;
     height: 300px;
     
@@ -50,11 +50,12 @@ header{
     position: relative;
     height: 175px;
 }
-p{text-align: initial;
+p{text-align: initial;}
 
-}ooter{
+footer{
     grid-area: footer
     ;
+}
 footer{
     background-color: #ffffff;
     position: relative;
